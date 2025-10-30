@@ -4,60 +4,113 @@
     <meta charset="UTF-8">
     <title>EcoMarket</title>
     <style>
+        /* Estilo general */
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #d0f0c0, #b3e6b3);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
             margin: 0;
-            padding: 40px;
+            padding: 0;
             color: #333;
-            text-align: center;
         }
 
-        h1 {
-            color: #2e8b57;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-            margin-bottom: 25px;
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            letter-spacing: 1px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 80%;
+            max-width: 700px;
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #2e7d32;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8em;
         }
 
         table {
-            margin: 0 auto;
+            width: 100%;
             border-collapse: collapse;
-            width: 60%;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-            border-radius: 10px;
             overflow: hidden;
+            border-radius: 8px;
         }
 
         th, td {
-            padding: 15px;
+            padding: 14px 12px;
             text-align: center;
-            border-bottom: 1px solid #ddd;
         }
 
         th {
-            background-color: #2e8b57;
+            background-color: #43a047;
             color: white;
             font-weight: bold;
         }
 
         tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #f1f8e9;
         }
 
         tr:hover {
-            background-color: #c1e1c1;
+            background-color: #dcedc8;
             transition: 0.3s;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <h1>Productos disponibles</h1>
-    <table>
-        <tr><th>Producto</th><th>Precio</th><th>Categoría</th></tr>
-        <tr><td>Manzana</td><td>$2.500</td><td>Fruta</td></tr>
-        <tr><td>Tomate</td><td>$1.800</td><td>Verdura</td></tr>
-        <tr><td>Piña</td><td>$3.000</td><td>Fruta</td></tr>
-    </table>
+    <header>
+        <h1>🌿 EcoMarket</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Productos disponibles</h2>
+            <table>
+                <tr><th>Producto</th><th>Precio</th><th>Categoría</th></tr>
+                <tr><td>Manzana</td><td>$2.500</td><td>Fruta</td></tr>
+                <tr><td>Tomate</td><td>$1.800</td><td>Verdura</td></tr>
+                <tr><td>Piña</td><td>$3.000</td><td>Fruta</td></tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 EcoMarket - Conectando productores locales con compradores responsables 🍏
+    </footer>
 </body>
 </html>
