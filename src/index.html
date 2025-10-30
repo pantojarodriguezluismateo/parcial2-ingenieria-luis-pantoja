@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head> 
-        <meta charset="UTF-8">
-        <title>EcoMarket</title>
-    </head>
-    <body>
-        <h1>Productos disponibles</h1>
-        <table border="1">
-            <tr><th>Producto</th><th>Precio</th><th>Categoria</th></tr>
-            <tr><th>Manzana</th><th>2.500</th><th>Fruta</th></tr>
-            <tr><th>Tomate</th><th>1.800</th><th>Verdura</th></tr>
-            <tr><th>Piña</th><th>3.000</th><th>Fruta</th></tr>
-        </table>
-    </body>
-    </html>
+<head> 
+    <meta charset="UTF-8">
+    <title>EcoMarket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #d0f0c0, #b3e6b3);
+            margin: 0;
+            padding: 40px;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2e8b57;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            margin-bottom: 25px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2e8b57;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #c1e1c1;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Productos disponibles</h1>
+    <table>
+        <tr><th>Producto</th><th>Precio</th><th>Categoría</th></tr>
+        <tr><td>Manzana</td><td>$2.500</td><td>Fruta</td></tr>
+        <tr><td>Tomate</td><td>$1.800</td><td>Verdura</td></tr>
+        <tr><td>Piña</td><td>$3.000</td><td>Fruta</td></tr>
+    </table>
+</body>
+</html>
