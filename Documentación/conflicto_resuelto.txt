@@ -1,0 +1,33 @@
+Durante el proceso de fusión entre las ramas main y hotfix-actualizacion, 
+se presentó un conflicto en el archivo src/index.html.
+
+Esto ocurrió porque en la rama main el título del archivo se había cambiado a “Lista de Productos Frescos”, 
+mientras que en la rama hotfix-actualizacion el título se modificó a “Productos EcoMarket - Actualizado”.
+
+Para solucionarlo, seguí los siguientes pasos:
+Me aseguré de estar en la rama main usando:
+git checkout main
+
+Actualicé los cambios del repositorio remoto con:
+git fetch origin
+
+Intenté fusionar la rama hotfix-actualizacion:
+git merge origin/hotfix-actualizacion
+Aquí Git detectó el conflicto en src/index.html.
+
+Abrí el archivo en Visual Studio Code y revisé las secciones marcadas con los símbolos:
+<<<<<<< HEAD
+(código de main)
+=======
+(código de hotfix-actualizacion)
+>>>>>>> origin/hotfix-actualizacion
+
+Decidí mantener el título final como:
+<h1>Productos EcoMarket - Actualizado</h1>
+porque representaba la versión más reciente.
+
+Guardé los cambios y ejecuté los siguientes comandos para confirmar la solución:
+git add src/index.html
+git commit -m "Resolver conflicto"
+git push origin main
+Con esto, el conflicto fue resuelto correctamente y los cambios se subieron al repositorio sin problemas.
