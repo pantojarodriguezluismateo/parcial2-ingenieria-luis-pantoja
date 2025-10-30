@@ -1,0 +1,21 @@
+Sprint 1 - Plan
+
+Objetivo del sprint:
+Implementar la vista inicial del catálogo de productos y preparar la base para implementar filtrado por categoría.
+
+Historias seleccionadas para Sprint 1:
+1. Visualizar lista de productos (Historia asignada por PO) - Prioridad Alta
+2. Filtrar productos por categoría (Historia 2) - Prioridad Alta
+3. Ver detalle básico de producto (Historia 3) - Prioridad Media (esqueleto)
+
+Tareas específicas:
+- T1: Crear estructura de proyecto y carpetas (/src, /documentacion, /capturas). (0.5 día)
+- T2: Implementar `index.html` con tabla de productos y contenido estático. (1 día)
+- T3: Añadir estilos básicos CSS (archivo o inline). (0.5 día)
+- T4: Implementar script JS para filtrado por categoría (crear `filtrado.txt` con propuesta y luego `filter.js`). (1.5 días)
+- T5: Implementar esqueleto de detalle de producto (modal o sección). (1 día)
+- T6: Escribir documentación básica y preparar capturas para PR y conflicto. (0.5 día)
+- T7: Tests básicos de visualización en navegador y corrección de bugs. (0.5 día)
+
+Duración estimada del sprint:
+7 días (1 semana)

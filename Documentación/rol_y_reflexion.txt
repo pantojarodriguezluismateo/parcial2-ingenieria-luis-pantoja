@@ -1,0 +1,7 @@
+Rol desempeñado:
+Developer (Desarrollador Frontend)
+
+Reflexión sobre SCRUM:
+Como Developer, participé en la implementación de la vista de productos y en la planificación de tareas del Sprint 1. SCRUM ayuda a mantener la productividad y organización del equipo al dividir el trabajo en iteraciones cortas (sprints) con objetivos claros. Los roles (Product Owner, Scrum Master, Developers) definen responsabilidades: el Product Owner prioriza el backlog y asegura valor; el Scrum Master facilita procesos y elimina impedimentos; los Developers implementan las historias.
+
+Los eventos principales —Sprint Planning, Daily Scrum, Sprint Review y Sprint Retrospective— proveen ritmo, visibilidad y aprendizaje continuo. Esto mejora la entrega incremental de valor, permite ajustar prioridades y mantiene al equipo alineado y enfocado.

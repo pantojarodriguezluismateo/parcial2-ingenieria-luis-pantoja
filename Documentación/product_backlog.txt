@@ -1,0 +1,29 @@
+Product Backlog - EcoMarket
+
+Historia 1 (Historia asignada por PO)
+Como comprador, quiero poder visualizar una lista de productos disponibles con su nombre, precio y categoría, para poder elegir fácilmente qué comprar.
+Criterios de aceptación:
+- Se muestra una lista/tabla de productos con columnas: Producto, Precio, Categoría.
+- Al menos 3 productos de ejemplo aparecen.
+Prioridad: Alta
+
+Historia 2
+Como comprador, quiero poder filtrar los productos por categoría (Fruta, Verdura), para encontrar lo que necesito más rápido.
+Criterios de aceptación:
+- Existe opción para seleccionar una categoría y ver solo productos de esa categoría.
+- El filtro no recarga la página (implementación JS).
+Prioridad: Alta
+
+Historia 3
+Como comprador, quiero ver el detalle de un producto (imagen, descripción corta, disponibilidad), para decidir si lo voy a añadir al carrito.
+Criterios de aceptación:
+- Al hacer clic en un producto se muestra un modal o página con: imagen, descripción, precio y stock.
+- Si stock = 0, se muestra “No disponible”.
+Prioridad: Media
+
+Historia 4
+Como vendedor, quiero poder añadir un nuevo producto desde un formulario, para actualizar el catálogo.
+Criterios de aceptación:
+- Existe formulario con campos: nombre, precio, categoría, descripción, stock.
+- Al enviar, el producto aparece en la lista.
+Prioridad: Baja
