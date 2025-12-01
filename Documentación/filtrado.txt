@@ -1,0 +1,8 @@
+Para implementar un filtro de búsqueda por categoría en EcoMarket, 
+primero agregaría un campo de selección (por ejemplo, un menú desplegable) 
+donde el usuario pueda elegir una categoría como “Frutas” o “Verduras”. 
+Luego, con JavaScript, recorrería la tabla de productos y mostraría solo las filas que coincidan con la categoría seleccionada, 
+ocultando las demás.
+
+De esta forma, el usuario podría filtrar fácilmente los productos según lo que necesite, 
+haciendo la página más interactiva y ordenada.
